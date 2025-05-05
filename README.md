@@ -31,8 +31,7 @@ Visualizations and comparison plots for training loss and Dice scores are includ
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/BrainMRI-Segmentation.git
-cd BrainMRI-Segmentation
+git clone https://github.com/AbhijitChallapalli/U-Net-Enhancements.git
 ```
 
 ### 2. Set Up Environment
