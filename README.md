@@ -97,4 +97,4 @@ Feel free to fork, submit issues, or propose enhancements. All feedback is welco
 
 ## Contact
 
-For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/) or **Omkar Desai** via [LinkedIn]()
+For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/) or **Omkar Desai** via [LinkedIn](https://www.linkedin.com/in/omkar-desai-3754b9233/)
