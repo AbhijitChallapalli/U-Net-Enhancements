@@ -56,8 +56,8 @@ Each model is trained for 10 epochs using Adam optimizer and a composite loss fu
 - **Dice Loss**  
   Dice Score formula used:  
   
-\text{Dice}(P, G) = \frac{2 \cdot |P \cap G| + \epsilon}{|P| + |G| + \epsilon}
-\
+{Dice}(P, G) = \frac{2 \cdot |P \cap G| + \epsilon}{|P| + |G| + \epsilon}
+
 
 Threshold: `0.5` for converting prediction probabilities to binary masks.
 
