@@ -14,7 +14,7 @@ The goal of this project is to segment tumor regions in FLAIR MRI scans of patie
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Model             | Avg. Dice Score | Comments |
 |------------------|------------------|----------|
