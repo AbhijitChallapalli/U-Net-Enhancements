@@ -80,7 +80,7 @@ Threshold: `0.5` for converting prediction probabilities to binary masks.
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Feel free to fork, submit issues, or propose enhancements. All feedback is welcome!
 
