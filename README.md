@@ -30,18 +30,20 @@ Visualizations and comparison plots for training loss and Dice scores are includ
 ## Setup Instructions
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/AbhijitChallapalli/U-Net-Enhancements.git
 ```
 
 ### 2. Set Up Environment
 Use Google Colab (recommended) or install locally:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Dataset
-Download the BrainMRI.zip dataset from [Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)  
+Download the BrainMRI.zip dataset from [Kaggle](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)  
 Upload to your Google Drive and extract using the code in the notebook.
 
 ---
@@ -75,7 +77,6 @@ Threshold: `0.5` for converting prediction probabilities to binary masks.
 2. Oktay et al., Attention U-Net, arXiv:1804.03999  
 3. He et al., Deep Residual Learning, CVPR 2016  
 4. Zhou et al., UNet++, IEEE TMI 2019  
-5. [Kaggle Dataset - LGG MRI](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
 ---
 
@@ -95,4 +96,4 @@ Feel free to fork, submit issues, or propose enhancements. All feedback is welco
 
 ## Contact
 
-For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/) or **Omkar Desai** via [[LinkedIn]]()
+For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/) or **Omkar Desai** via [LinkedIn]()
