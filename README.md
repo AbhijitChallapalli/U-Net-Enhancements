@@ -55,8 +55,9 @@ Each model is trained for 10 epochs using Adam optimizer and a composite loss fu
 - **Binary Cross Entropy (BCE) Loss**
 - **Dice Loss**  
   Dice Score formula used:  
-  
-{Dice}(P, G) = \frac{2 \cdot |P \cap G| + \epsilon}{|P| + |G| + \epsilon}
+
+  Dice(P, G) = (2 × |P ∩ G| + ε) / (|P| + |G| + ε)
+
 
 
 Threshold: `0.5` for converting prediction probabilities to binary masks.
