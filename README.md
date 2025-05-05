@@ -1,10 +1,10 @@
-# 🧠 Brain MRI Tumor Segmentation using Enhanced U-Net Architectures
+# Brain MRI Tumor Segmentation using Enhanced U-Net Architectures
 
 This repository presents a comparative study of four U-Net-based deep learning architectures—Basic U-Net, Attention U-Net, Residual U-Net, and U-Net++—applied to brain tumor segmentation using the LGG MRI dataset.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The goal of this project is to segment tumor regions in FLAIR MRI scans of patients with low-grade glioma. We implement and compare:
 - **Basic U-Net**: A classical encoder-decoder architecture.
@@ -19,7 +19,7 @@ The goal of this project is to segment tumor regions in FLAIR MRI scans of patie
 | Model             | Avg. Dice Score | Comments |
 |------------------|------------------|----------|
 | Basic U-Net       | 0.6259           | Baseline model |
-| Attention U-Net   | **0.6800** ✅     | Best performance with attention gating |
+| Attention U-Net   | **0.6800**      | Best performance with attention gating |
 | Residual U-Net    | 0.6446           | Stable convergence |
 | U-Net++           | 0.6352           | High capacity but inconsistent |
 
@@ -27,7 +27,7 @@ Visualizations and comparison plots for training loss and Dice scores are includ
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -47,7 +47,7 @@ Upload to your Google Drive and extract using the code in the notebook.
 
 ---
 
-## 🧠 Training
+##  Training
 
 Each model is trained for 10 epochs using Adam optimizer and a composite loss function:
 
@@ -62,7 +62,7 @@ Threshold: `0.5` for converting prediction probabilities to binary masks.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 - Training Loss Curves
 - Validation Dice Score Curves
@@ -70,7 +70,7 @@ Threshold: `0.5` for converting prediction probabilities to binary masks.
 
 ---
 
-## 📚 References
+##  References
 
 1. Ronneberger et al., U-Net: Convolutional Networks for Biomedical Image Segmentation, MICCAI 2015  
 2. Oktay et al., Attention U-Net, arXiv:1804.03999  
@@ -86,15 +86,14 @@ Feel free to fork, submit issues, or propose enhancements. All feedback is welco
 
 ---
 
-## 🧪 Future Work
+##  Future Work
 
 - Training for more epochs  
 - Using multi-modal inputs (e.g., T1 + FLAIR)  
-- Integrating transformer-based segmentation backbones  
 - Deploying models via Streamlit or Gradio
 
 ---
 
-## 📬 Contact
+## Contact
 
-For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/)
+For questions, reach out to **Abhijit Challapalli** via [LinkedIn](https://www.linkedin.com/in/abhijit-c-b5876814b/) or **Omkar Desai** via [[LinkedIn]]()
